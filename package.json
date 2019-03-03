@@ -1,0 +1,24 @@
+{
+    "name": "make-virtual-dom",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=development webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/plugin-transform-react-jsx": "^7.3.0",
+        "@babel/preset-env": "^7.3.4",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^1.0.1",
+        "cross-env": "^5.2.0",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.2.3",
+        "webpack-merge": "^4.2.1"
+    }
+}

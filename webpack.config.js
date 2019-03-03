@@ -20,6 +20,7 @@ module.exports = merge(common, {
             // Poll using interval (in ms, accepts boolean too)
             poll: 1000,
         },
+        port: 8081,
         contentBase: path.join(__dirname, "dist"),
         hot: true,
         host: "0.0.0.0",
